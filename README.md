@@ -1,5 +1,5 @@
-# nginx-pagespeed\
-Turnkey nginx with google pagespeed\ 
+# nginx-pagespeed \
+Turnkey nginx with google pagespeed \ 
 
 ## Scope\
 This piece of code is intended to save some time from your precious life.\
