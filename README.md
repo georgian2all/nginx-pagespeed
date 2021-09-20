@@ -1,11 +1,11 @@
-# nginx-pagespeed \
-Turnkey nginx with google pagespeed \ 
+# nginx-pagespeed 
+Turnkey nginx with google pagespeed  
 
-## Scope\
+## Scope
 This piece of code is intended to save some time from your precious life.\
 Just take, read, understand what I have written there and eventually make a review.\
 
-## How to use\
+## How to use
 
 Set executable flag for setup-nginx.sh\
 Launch setup-nginx.sh using a user with sudo privileges.\
