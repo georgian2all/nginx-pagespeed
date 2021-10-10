@@ -88,7 +88,7 @@ if [ ! -z "${NGX_MODULES}" ]; then
     done
 fi
 echo $(green "Configure nginx before compile")
-./configure --add-module=$nps_dir ${PS_NGX_EXTRA_FLAGS} --prefix=/etc/nginx \
+./configure --add-dynamic-module=$nps_dir ${PS_NGX_EXTRA_FLAGS} --prefix=/etc/nginx \
             --modules-path=/etc/nginx/modules \
             --sbin-path=/usr/sbin/nginx \
             --conf-path=/etc/nginx/nginx.conf \
