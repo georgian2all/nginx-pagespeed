@@ -1,7 +1,7 @@
 #https://www.modpagespeed.com/doc/build_ngx_pagespeed_from_source
 # real nginx and nginx pagespeed version
 # nginx version which we want to install
-NGX_VERSION=1.20.1
+NGX_VERSION=1.22.1
 # nginx pagespeed version which we want to install
 NPS_VERSION=1.13.35.2-stable
 

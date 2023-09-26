@@ -183,6 +183,7 @@ echo $(green "Enabling nginx service")
 sudo systemctl enable nginx.service
 echo $(green "Starting nginx server")
 sudo systemctl start  nginx
-
+echo $(green "Make sure to turn of apache2 server")
+sudo service apache2 stop
 echo $(green "WE ARE DONE nginx WAS SUCCESFULLY DEPLOYED ON YOUR SYSTEM !")
 echo
